@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
+# Mobile Health Analyzer
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile application built using Expo and React Native that enables users to take pictures of their body parts and analyze them using machine learning.
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+* [Features](#features)
+* [Technical Requirements](#technical-requirements)
+* [Getting Started](#getting-started)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+* Take pictures of body parts using the camera
+* Analyze images using machine learning
+* Display results and provide insights on the user's health
+* View photos from the gallery
 
-   ```bash
-    npx expo start
-   ```
+## Technical Requirements
 
-In the output, you'll find options to open the app in a
+* Expo and React Native for building the mobile app
+* Expo Camera library for capturing images
+* Google Generative AI library for analyzing images
+* Media Library permission to access the user's photo gallery
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+To get started with the project, follow these steps:
 
-## Get a fresh project
+1. Clone the repository using `git clone https://github.com/your-username/your-repo-name.git`
+2. Install the dependencies using `npm install` or `yarn install`
+3. Start the development server using `npm start` or `yarn start`
 
-When you're ready, run:
+## Installation
 
-```bash
-npm run reset-project
-```
+To install the app on your device, follow these steps:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Open the Expo Go app on your device
+2. Scan the QR code displayed on the development server
+3. Wait for the app to install and launch
 
-## Learn more
+## Usage
 
-To learn more about developing your project with Expo, look at the following resources:
+To use the app, follow these steps:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Launch the app on your device
+2. Take a picture of the product ingredient label using the camera
+3. Wait for the app to analyze the image using gemini api
+4. View the results and insights about ingredients
 
-## Join the community
+## Contributing
 
-Join our community of developers creating universal apps.
+Contributions are welcome! To contribute to the project, follow these steps:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository using `git fork https://github.com/your-username/your-repo-name.git`
+2. Create a new branch using `git branch your-branch-name`
+3. Make changes to the code and commit them using `git commit -m "your-commit-message"`
+4. Push the changes to your fork using `git push origin your-branch-name`
+5. Create a pull request to merge your changes into the main branch
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
